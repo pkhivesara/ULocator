@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clean"
+    android:gravity="center"
+    android:paddingTop="5dp" >
+
+    <Button
+        android:id="@+id/AddNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:text="@string/SendMessage"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/homeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/Message"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#ffffff" />
+
+    <ScrollView
+        android:id="@+id/SonucScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@+id/AddNumbers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp" >
+
+        <TextView
+            android:id="@+id/numberList"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_above="@+id/AddNumbers"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/back"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ffffff" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/AddNumbers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:clickable="true"
+        android:text="@string/HintHomepage"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

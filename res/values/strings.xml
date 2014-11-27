@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">SendLocation</string>
+    <string name="SendMessage">Send Message!</string>
+    <string name="AddNumbers">Add Numbers</string>
+    <string name="Settings">Add Contacts</string>
+    <string name="button">Done</string>
+    <string name="Done">Done</string>
+    <string name="Message">"Send out your location in a click of a button!"</string>
+    <string name="Help">Help</string>
+    <string name ="HintHomepage"><u>How to use the App</u></string>
+<string name = "Name">Pratik Khivesara</string>
+<string name = "feedback">Send Feeback</string>
+<string name = "rate">Rate the App</string>
+<string name = "Number">7176592276</string>
+
+</resources>

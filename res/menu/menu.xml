@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_add_contacts"
+        android:showAsAction="ifRoom"
+        android:title="@string/Settings">
+    </item>
+    <item
+        android:id="@+id/item_feedback"
+        android:showAsAction="never"
+        android:title="@string/feedback">
+    </item>
+    <item
+        android:id="@+id/item_rate"
+        android:showAsAction="never"
+        android:title="@string/rate">
+    </item>
+
+</menu>
