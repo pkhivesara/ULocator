@@ -3,7 +3,7 @@ ULocator
 Source code of sample application on Google Play Store: https://play.google.com/store/apps/details?id=com.pratik.ulocator&hl=en
 
 
-Copyright [2014] [Pratik Khivesara]
+Copyright 2014 Pratik Khivesara
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
